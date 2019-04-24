@@ -1,0 +1,21 @@
+{
+    "name": "bojan/taobao_sdk",
+    "description": "淘宝客API",
+    "authors": [
+        {
+            "name": "bojan",
+            "email": "bojanshi@aliyun.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">= 7.0.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files": [
+            "TopSdk.php"
+        ]
+    }
+}
